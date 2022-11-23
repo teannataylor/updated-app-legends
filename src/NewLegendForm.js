@@ -33,20 +33,6 @@ function handleChange(e){
 
 }
 
-  // // any route that starts with '/heros/' will come here
-  // function HeroPage(){
-  //   const [heroes, setHeroes] = useState([])
-
-  //   useEffect(() => {
-  //       fetch('http://localhost:3004/superheroes')
-  //       .then(r => r.json())
-  //       .then(data => setHeroes(data))
-  //   }, [])
-
-  //   const addNewHero = (hero) => {
-  //       setHeroes((heros) => [...heros, hero])
-  //   }
-
 function handleSubmit(e){
   e.preventDefault();
 
